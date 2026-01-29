@@ -65,9 +65,9 @@ const Footer = () => {
                 <Mail className="w-4 h-4" />
                 contato@fibrion.com.br
               </a>
-              <a href="tel:+551140028922" className="flex items-center gap-2 text-background/70 hover:text-background transition-colors">
+              <a href="tel:+551149347001" className="flex items-center gap-2 text-background/70 hover:text-background transition-colors">
                 <Phone className="w-4 h-4" />
-                (11) 4002-8922
+                (11) 4934-7001
               </a>
               <div className="flex items-start gap-2 text-background/70">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
