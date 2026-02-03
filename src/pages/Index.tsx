@@ -8,6 +8,7 @@ import AISection from "@/components/landing/AISection";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import FinalCTASection from "@/components/landing/FinalCTASection";
 import FAQSection from "@/components/landing/FAQSection";
+import RDStationFormSection from "@/components/landing/RDStationFormSection";
 import Footer from "@/components/landing/Footer";
 
 const Index = () => {
@@ -24,6 +25,7 @@ const Index = () => {
         <TestimonialsSection />
         <FinalCTASection />
         <FAQSection />
+        <RDStationFormSection />
       </main>
       <Footer />
     </div>
