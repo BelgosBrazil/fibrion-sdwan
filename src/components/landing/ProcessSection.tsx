@@ -88,9 +88,11 @@ const ProcessSection = () => {
               </div>
             ))}
           </div>
-          <Button variant="heroOutline" size="lg" className="group border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
-            Quero ver a simulação de economia
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          <Button asChild variant="heroOutline" size="lg" className="group border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+            <a href="#form">
+              Quero ver a simulação de economia
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </a>
           </Button>
         </div>
       </div>

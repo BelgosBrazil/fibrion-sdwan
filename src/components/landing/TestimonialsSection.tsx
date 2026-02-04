@@ -79,9 +79,11 @@ const TestimonialsSection = () => {
 
         {/* CTA */}
         <div className="text-center">
-          <Button variant="hero" size="lg" className="group">
-            Ver mais casos de sucesso
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          <Button asChild variant="hero" size="lg" className="group">
+            <a href="#form">
+              Ver mais casos de sucesso
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </a>
           </Button>
         </div>
       </div>

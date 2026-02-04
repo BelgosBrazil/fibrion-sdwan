@@ -33,7 +33,7 @@ const RDStationFormSection = () => {
   }, []);
 
   return (
-    <section className="section-padding bg-muted/50">
+    <section id="form" className="section-padding bg-muted/50">
       <div className="container-main px-4 md:px-6">
         <div className="max-w-2xl mx-auto rounded-2xl overflow-hidden bg-muted/70 p-8 md:p-10 shadow-lg border border-border/50">
           <div role="main" id="ia-f585633acba408512e8f" />

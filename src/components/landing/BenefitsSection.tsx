@@ -77,9 +77,11 @@ const BenefitsSection = () => {
 
         {/* CTA */}
         <div className="text-center">
-          <Button variant="hero" size="lg" className="group">
-            Fale com um especialista
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          <Button asChild variant="hero" size="lg" className="group">
+            <a href="#form">
+              Fale com um especialista
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </a>
           </Button>
         </div>
       </div>

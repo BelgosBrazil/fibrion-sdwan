@@ -33,8 +33,8 @@ const Header = () => {
             <Button variant="heroOutline" size="sm" className="border-background/30 text-background hover:bg-background/10">
               Portal do Cliente
             </Button>
-            <Button size="sm" className="bg-primary hover:bg-primary/90">
-              Agendar Consultoria
+            <Button asChild size="sm" className="bg-primary hover:bg-primary/90">
+              <a href="#form">Agendar Consultoria</a>
             </Button>
           </div>
 
@@ -77,8 +77,8 @@ const Header = () => {
                 <Button variant="heroOutline" className="w-full border-background/30 text-background hover:bg-background/10">
                   Portal do Cliente
                 </Button>
-                <Button className="w-full">
-                  Agendar Consultoria
+                <Button asChild className="w-full" onClick={() => setIsMenuOpen(false)}>
+                  <a href="#form">Agendar Consultoria</a>
                 </Button>
               </div>
             </nav>

@@ -43,9 +43,11 @@ const FinalCTASection = () => {
             <p className="text-primary-foreground/80 mb-8 max-w-xl mx-auto">
               Em poucos dias, podemos transformar sua fatura de telecom em uma máquina de economia e eficiência.
             </p>
-            <Button variant="hero" size="xl" className="group animate-pulse-glow">
-              Agende sua análise gratuita
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            <Button asChild variant="hero" size="xl" className="group animate-pulse-glow">
+              <a href="#form">
+                Agende sua análise gratuita
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
           </div>
         </div>

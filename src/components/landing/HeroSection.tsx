@@ -45,9 +45,11 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in" style={{ animationDelay: '0.3s' }}>
-            <Button variant="hero" size="xl" className="group">
-              Descubra quanto você pode economizar
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            <Button asChild variant="hero" size="xl" className="group">
+              <a href="#form">
+                Descubra quanto você pode economizar
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
           </div>
 

@@ -25,9 +25,11 @@ const ProblemSection = () => {
         {/* Solution Statement */}
         <div className="bg-muted rounded-2xl p-8 md:p-12">
           <div className="max-w-3xl mx-auto text-center">
-            <Button variant="hero" size="lg" className="group">
-              Quero parar de desperdiçar dinheiro em telecom
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            <Button asChild variant="hero" size="lg" className="group">
+              <a href="#form">
+                Quero parar de desperdiçar dinheiro em telecom
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
           </div>
         </div>

@@ -51,9 +51,11 @@ const AISection = () => {
           <p className="text-lg md:text-xl text-foreground leading-relaxed mb-8 max-w-3xl mx-auto">
             Nosso sistema de Wi-Fi Inteligente não é apenas mais barato. É mais inteligente. Enquanto você cuida do seu negócio, a IA da Fibrion cuida da sua rede.
           </p>
-          <Button variant="hero" size="lg" className="group">
-            Ativar otimização inteligente
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          <Button asChild variant="hero" size="lg" className="group">
+            <a href="#form">
+              Ativar otimização inteligente
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </a>
           </Button>
         </div>
       </div>
